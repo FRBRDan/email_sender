@@ -10,7 +10,7 @@ addressee_name = sys.argv[2]
 # Setting up basic parameters
 html = Template(Path('index.html').read_text())
 email = EmailMessage()
-email['from'] = 'Dan Farber'
+email['from'] = 'Dan'
 email['to'] = addressee_email
 email['subject'] = 'Testing of email through Python.'
 
